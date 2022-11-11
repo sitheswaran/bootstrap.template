@@ -1,0 +1,378 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;
+}  
+
+.row      {
+	       
+	       display:flex;
+           flex-wrap:wrap;
+		    padding-right: 15px;
+		   padding-left:15px;
+}
+/*---
+ .container{
+	width:100%;
+	padding:0 15px;
+	overflow:hidden;
+}
+---*/
+.detail-header {
+
+	color:white;
+    padding-top:8px;
+	background-color:#3fbbc0;
+	height:38px;
+}
+.dateheader {
+	padding-left:294px;
+}
+
+/*---------------------  DATA HEADER SECTION END -----------------------------------*/
+
+/*--------------------- HEADER SECTION START -----------------------------------*/
+
+
+
+
+.header-img img {
+	width:100%;
+	height:auto;
+	margin-top:10px;
+}
+.nav-bar {
+	margin-top:18px;
+	display:flex;
+}
+.nav-bar a{
+	text-decoration:none;
+	padding-left:35px;
+}
+.bg-light {
+     background-color:white !important;
+}
+.header-con .nav-bar >li{
+                display:inline-block;
+}
+.nav-item .color {
+	color:#3fbbc0;
+}
+.nav-item.nav-link li:hover{
+	color:#3fbbc0 !important;
+}
+.navbar-brand img{
+	height:auto;
+	width:110px;
+}
+
+.nav-item {
+	font-size:13px;
+    padding-left:23px;
+}
+.navbar-light .navbar-nav .nav-link :hover {
+	color:#3fbbc0;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link.show>.nav-link {
+    margin-left:45px;
+}
+	
+.btn-info {
+	background-color:#3fbbc0;
+	border-color:#3fbbc0;
+	color:white;
+}
+
+.btn-info:hover{
+	background-color:none;
+	color:white;
+}
+
+.dropdown-menu {
+	z-index:2spx;
+}
+/*--------------------- HEADER SECTION END -----------------------------------*/
+
+/*--------------------- BANEER SECTION START -----------------------------------*/
+
+.baneer-section {
+	
+	height:500px;
+}
+
+.baneer-con-1 {
+	border-top: 4px solid #3fbbc0;
+	height:200px;
+	width:100%;
+    background-color: white;
+   
+    padding-top: -21px;
+    margin-top: -70px;
+    opacity:0.9;
+}
+
+.baneer-topic-2 {
+	text-align:center;
+}
+
+.btn-primary{
+    background-color:#3fbbc0;
+}
+.baneer-topic-2 h6{
+	color:gray;
+	padding-top:20px;
+}
+
+.baneer-topic-2 h2{
+	font-weight:200px;
+	padding-top:20px;
+
+}
+.baneer-new {
+	background-color:white;
+	height:200px;
+	width:100%;
+	opacity:0.7;
+}
+
+.h5, h5 {
+    font-weight:600px;
+    color: black;
+  
+    font-size: 40px;
+    padding-top: 13px;
+}
+.baneer-new p {
+    
+    color:gray;
+    
+    font-size:18px;
+}
+
+.w-100 {
+	display:none!important;
+    height: 546px;
+}
+
+.carousel-item  {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height:500px;
+}
+
+/*--------------------- BANEER SECTION end -----------------------------------*/
+/*--------------------- medicion SECTION START -----------------------------------*/
+
+.medicion-section {
+	background-color:white;
+    
+}
+
+.medicion-sheet {
+	box-shadow: 0px 3px 8px 4px #888888;
+	padding-top:25px;
+	padding-left:20px;
+    margin-bottom:30px;
+	margin-top:20px;
+	background-color:white;
+    height:250px;
+	border-radius:5px; 
+}
+.medicion-sheet i{
+	color:#3fbbc0;
+	font-size:64px;
+
+
+}
+
+.medicion-sheet h3{
+	padding-top:8px;
+}
+.medicion-sheet p{
+	padding-top:8px;
+}
+.medicion-sheet:hover{
+	background-color:#3fbbc0;
+	color:white;      
+}
+
+.medicion-sheet:hover i{
+	color:white;
+}
+/*--------------------- medicion SECTION END   -----------------------------------*/
+/*--------------------- EMERGINCY SECTION START -----------------------------------*/
+
+.emergency-section {
+	background-color:#3fbbc0;
+	height:330px;
+}
+.emergency {
+	color:white;
+	padding-top:50px;
+	text-align:center;
+}
+.emergency p{
+	color:#7a6464;
+	padding-top:20px;
+	
+}
+.nav-but {
+	text-decoration:none;
+    display:inline-block;
+	text-align:center;
+	padding:8px 18px;
+	background-color:#3fbbc0;
+	color:gray;
+	border-radius:50px;
+    font-size:16px;	
+	font-weight:200px;
+    border: 2px solid white;				
+}
+.nav-but:hover{
+	background-color:white;
+	color:#3fbbc0;
+}
+/*--------------------- EMERGINCY SECTION end  -----------------------------------*/
+/*--------------------- about us SECTION START -----------------------------------*/
+.about {
+	position:relative;
+}
+.about-color {
+	background-color:#3fbbc0;
+	width:50px;
+	height:2px;
+	text-align:center;
+	margin-left:510px;	
+	position:absolute;
+}
+.about-img {
+	width:100%;
+	height:auto;	
+}
+.about-text i{
+	color:#3fbbc0;
+}
+/*--------------------- about us SECTION END -----------------------------------*/
+/*--------------------- FIND OUT SECTION START -----------------------------------*/
+.find-out {
+	box-shadow: 0px 3px 8px 4px #888888;
+	padding-top:25px;
+	padding-left:20px;
+    margin-bottom:30px;
+	margin-top:20px;
+	background-color:white;
+    height:235px;
+	border-radius:5px; 
+}
+.find-out i{
+	color:#3fbbc0;
+}
+.find-out h2 span{
+	padding-left:20px;	
+}	
+.find-out p{
+	padding-top:20px;
+	
+}
+.find-out a{
+	padding-top:25px;
+	text-decoration:none;
+	color:gray;	
+}
+/*--------------------- FIND OUT SECTION END -----------------------------------*/
+/*---------------------   LAB- SECTION START -----------------------------------*/
+.lab-section {
+	height:300px;
+}
+.lab-parts-1 {
+	position:relative;	
+}
+.lab-parts-1 i{
+	position:absolute;
+	font-size:50px;
+    padding-top:19px;
+    color:#3fbbc0;
+    padding-left: 10px;
+}
+.lab-parts-1 h3 {
+	font-size:20px;
+    padding-top:18px;
+    padding-left: 80px;
+}
+.lab-parts-1 p {
+    padding-left: 80px;
+}
+
+/*---------------------   LAB- SECTION END  -----------------------------------*/
+/*---------------------   SERVICE- SECTION START -----------------------------------*/
+
+.service-section {
+	
+	height:700px;
+}
+.service-header {
+	
+	height:75px;
+}
+.service-color{
+	width:50px;
+	height:2px;
+	background-color:#3fbbc0;
+}
+.service-con {
+	margin-top: 55px;
+	height:250px;
+}
+
+.service-con  i{
+	width:100px;
+    height:100px;
+    margin-bottom: 20px;
+    background: #fff;
+	padding:10px 10px 3px 10px ;
+    border-radius: 50%;
+    transition: 0.5s;
+	color:#3fbbc0;
+	font-size:52px;
+	box-shadow: 0px 3px 8px 4px #d9d0d0;
+	
+}
+.service-con  i:hover {
+	box-shadow: 0px 2px 8px 3px #c3e9eb;
+}
+.service-con  h4:hover {
+	color:#3fbbc0;
+}
+.position-absolute {	
+	left:50%;
+}
+.service-color .position-absolute{
+	left:50%;
+}
+.service-con h4 {
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.service-con p {
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+/*---------------------   SERVICE- SECTION end  -----------------------------------*/
+/*-------------------- APPOINTMENT - SECTION START ---------------------------------*/
+.appointment-section {
+   height:400px; 
+}
+
+
+
+
+
+
+
+
+
+
+
