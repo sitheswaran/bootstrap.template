@@ -22,7 +22,7 @@
 	color:white;
     padding-top:8px;
 	background-color:#3fbbc0;
-	height:38px;
+	
 }
 .dateheader {
 	padding-left:294px;
@@ -72,11 +72,11 @@
 .navbar-light .navbar-nav .nav-link :hover {
 	color:#3fbbc0;
 }
-
+/*-------------------
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link.show>.nav-link {
     margin-left:45px;
 }
-	
+---------------------*/	
 .btn-info {
 	background-color:#3fbbc0;
 	border-color:#3fbbc0;
@@ -205,7 +205,7 @@
 
 .emergency-section {
 	background-color:#3fbbc0;
-	height:330px;
+	
 }
 .emergency {
 	color:white;
@@ -283,7 +283,7 @@
 /*--------------------- FIND OUT SECTION END -----------------------------------*/
 /*---------------------   LAB- SECTION START -----------------------------------*/
 .lab-section {
-	height:300px;
+	
 }
 .lab-parts-1 {
 	position:relative;	
@@ -308,11 +308,11 @@
 /*---------------------   SERVICE- SECTION START -----------------------------------*/
 
 .service-section {
-	
-	height:700px;
+	margin-top:100px;
+
 }
 .service-header {
-	
+	padding-top:110px;
 	height:75px;
 }
 .service-color{
@@ -321,8 +321,8 @@
 	background-color:#3fbbc0;
 }
 .service-con {
-	margin-top: 55px;
-	height:250px;
+	margin-top:148px;
+	height:220px;
 }
 
 .service-con  i{
@@ -363,12 +363,523 @@
 /*---------------------   SERVICE- SECTION end  -----------------------------------*/
 /*-------------------- APPOINTMENT - SECTION START ---------------------------------*/
 .appointment-section {
-   height:400px; 
+	background-color:#f3ffff;
+	margin-top:20px;
+   
+}
+.appointment-header p{
+    padding-top:14px;
+}	
+.contact-message-2 {
+	padding-top:15px;
+	border-radius:5px;
+}
+.contact-message-2 input {
+	width:100%;
+	height:50px;
+	display:inline-block;
+	padding-left:10px;	
+}
+.col-auto {
+	padding-top:15px;
+}
+.contact-message-3{
+	padding-top:15px;	
+}
+.contact-message-3 textarea {
+	border-radius:5px;	
+	padding-top:15px;
+	width:100%;
+	height:104px;
+	padding-left:10px;	
+}
+.button {
+	border-radius: 50px;
+    margin-left:41%;
+    text-align: center;
+    width: 200px;
+    margin-top:35px;
+}
+.form-control:focus {
+     border-color:#0ec4cd;
+    border-color:none!important;
+    box-shadow:none !important;
+}
+.form-control {
+	height:50px;
+}
+.form-select {
+    height: 50px;
+}
+.btn:focus {
+    outline: 0;
+     box-shadow:none!important;
+}
+
+.btn-info:focus {
+    box-shadow: none!important;
+}
+/*-------------------- APPOINTMENT - SECTION END ---------------------------------*/
+/*-------------------- DEPARTMENTS - SECTION START ---------------------------------*/
+.department-section {
+	margin-top: 15px;
+	
+}
+.department-course {
+	border-left: 6px solid transparent;
+	height:100px;
+	padding-top:10px;
+	padding-left:50px;
+}
+.department-course:hover{
+	border-left: 6px solid #0ec4cd;
+	height:80px;
+	background-color:#f3ffff;	
+}
+.department-course:hover h4{
+	color:#0ec4cd;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   
+    background-color:none!important; 
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:none;
+    background-color:none!important;
+}
+/*-------------------- DEPARTMENTS - SECTION END ---------------------------------*/
+/*-------------------- TESTMONISLS - SECTION START ---------------------------------*/
+.testmonials-section {	
+
+}
+.item {
+	height:250px;
+	background:#f0fafa;
+
+}
+.item p {
+	padding:15px 15px 15px 15px;
+
+	font-size:20px;
+}
+.text-img  {
+	margin-left:30px;
+}
+.text-img img {
+    border:6px solid #fff;
+	border-radius: 50%;
+	width:25%!important;
+	height:25%;
+}
+.owl-carousel .owl-item img {
+    margin-top: -60px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 60px;
+	
+}
+.owl-nav {
+	text-align: center;
+}
+.item i{
+	color:#78e3d9;
 }
 
 
 
 
+
+
+
+
+/*-------------------- TESTMONISLS - SECTION END   ---------------------------------*/
+/*-------------------- DOCTER - SECTION START ---------------------------------*/
+.docter-section {
+    background-color:#f7fcfc;
+    
+}
+.team-img {
+    box-shadow: 0px 2px 15px rgb(63 187 192 / 10%);
+	border-radius:10px;
+	background-color:white;
+    position:relative;
+    height:320px;
+		   }
+.team-img img{
+    width:100%;
+    height:235px;	
+}		
+.team-link {
+    position:absolute;
+	padding-left:18px;
+	bottom:85px;	
+}		
+.team-link a i{
+    line-height:35px;
+    display:inline-block;
+    background-color:#e03a3c;
+    width:35px;
+    height:35px;
+    margin:0 3px;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	opacity:0;
+	transition:all 0.3s ease;	
+}	
+.team-img:hover .team-link a i{
+	
+    opacity:0.6;
+    transform:translateY:(0);	
+	 background-color:white;
+	 color:black;	
+}
+
+	
+.team-name h3{
+	font-size:24px;
+    padding-left:8px;
+    padding-top:15px;
+}	
+.team-name h5{
+	font-size:15px;
+    padding-left:8px;
+    padding-top:10px;
+	color:gray;
+}
+
+.team-img:hover a i{
+color:blue;
+}	
+
+/*-------------------- DOCTER - SECTION  END  ---------------------------------*/
+
+/*-------------------- GALLERY - SECTION START ---------------------------------*/
+
+.gallery-header h2 {
+	padding-bottom:15px;
+}
+.gallery-header p {
+	padding-top:15px;
+}	
+
+.gallery-img {
+	height:200px;
+}
+
+/*-------------------- GALLERY - SECTION END  ---------------------------------*/
+
+/*-------------------- PRICING - SECTION START ---------------------------------*/
+.pricing-team  {
+	    box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
+   position:relative;
+   overflow:hidden;
+   border-radius: 5px;	
+}
+.pricing {
+	height:50px;
+	background-color:#f8f8f8;
+}
+.pricing-team h3 {
+	color:#3fbbc0;
+	font-size:45px;
+	padding-top:20px;
+}
+.pricing-team h3 sup {
+    color:#3fbbc0;
+	padding-top:20px;
+	font-size:20px;
+}
+.pricing-team h3 span {
+	color:black;
+	text-align:center;
+	font-size:20px;
+}
+
+.pricing-team h4{
+	color:black;
+	padding-top:15px;
+	font-size:16px;
+}
+.pricing-team h5{
+	color:black;
+	padding-top:20px;
+	font-size:15px;
+}
+.pricing-team p {
+	font-size:15px;
+	color:gray;
+	text-decoration: line-through;
+	}
+.nav-but3 {  
+    text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 6px 28px;
+	background-color:#3fbbc0;
+	color: #fff;
+	border-radius: 5px;
+    font-size: 15px;
+    margin-top:15px; 
+    transition:0.2s;
+	border: 0.9px solid #3fbbc0;			  
+}
+.pricing-button {
+	height:60px;
+	background-color:#f8f8f8;
+}
+.pricing-1{
+	color:white;
+	height:50px;
+	background-color:#3fbbc0;
+}
+.pricing-1 h4{
+	color:white;
+}
+.pricing-design {
+	
+	width: 215px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px; 
+    padding: 1px 0 3px 0; 
+    background: #3fbbc0;
+    color: #fff;
+	
+}
+.pricing-design p{
+	
+	color:white;
+	text-decoration:none;
+}
+
+/*-------------------- PRICING - SECTION END  ---------------------------------*/
+
+/*-------------------- QUESTIOINS- SECTION START ---------------------------------*/
+.qustions-section {
+	
+	margin-top:50px;
+	background-color:#f7fcfc;
+}
+	
+.qustions-header p{
+	padding-top:20px;
+}
+
+.accordion-button:not(.collapsed) {
+   
+    background-color:#3fbbc0!important
+    box-shadow:none!important;
+}
+.accordion-button:focus {
+   
+    border-color:none!important;
+    box-shadow:none!important;
+}
+.accordion-header:hover{
+	color:#3fbbc0;
+}
+
+.accordion-item {
+    background-color:#f7fcfc;
+    border: none!important;
+	border-bottom:1px solid #a99b9b !important;
+}
+.accordion-button:not(.collapsed) {
+     color:#3fbbc0; 
+     background-color:#f7fcfc; 
+    box-shadow:none!important;
+}
+
+element.style {
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.accordion-button {
+    background-color:#f7fcfc;
+}
+
+.accordion-button:hover {
+    color: #3fbbc0;
+}
+/*-------------------- QUESTIOINS- SECTION END  ---------------------------------*/
+
+/*-------------------- CONTACT- SECTION START ---------------------------------*/
+.contact-section {
+	margin-top:30px;
+}
+.contact-header p{
+	padding-top:15px;
+}
+.contact-map {
+	height:auto;
+}
+
+.contact-address {
+	box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+	padding-top:20px;
+	margin-top:30px;
+	height:180px;
+	
+}
+.contact-email {
+	padding-top:20px;
+	box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+	margin-top:20px;
+	height:180px;
+	
+}
+.contact-message {
+	box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+	margin-top: 30px;
+	padding-top: 30px;
+	height:370px;
+    box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+}
+
+.contact-message-3 textarea {
+	border-radius:5px;	
+	padding-top:15px;
+	width:100%;
+	height:104px;
+	padding-left:10px;	
+}
+.contact-address i{
+	font-size:40px;
+	padding:8px 8px 8px 8px;
+    border-radius:50px;
+	border:2px dotted #3fbbc0 ;
+	color:#3fbbc0;	
+}
+.contact-address h3 {
+    padding-top:18px;
+	font-size:25px;
+}
+
+.contact-email i{
+	font-size:20px;
+	padding:8px 8px 8px 8px;
+    border-radius:50px;
+	border:2px dotted #3fbbc0 ;
+	color:#3fbbc0;	
+}
+.contact-email h3 {
+    padding-top:18px;
+	font-size:20px;
+}
+/*-------------------- CONTACT - SECTION END  ---------------------------------*/
+
+/*-------------------- FOOTER - SECTION START ---------------------------------*/
+.footer-header {
+	margin-top:50px;
+	height:300px;
+	background-color:
+}
+.footer-1 li{
+	
+	list-style:none;
+	padding-top:15px;
+}
+.footer-link a {
+	font-size: 18px;
+    display: inline-block;
+    background:#3fbbc0 ;
+    color:white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+	text-decoration:none;
+}
+.footer-1 a{
+	color:gray;
+	text-decoration:none;
+}
+.footer-1 h4{
+	padding-top:15px;
+	font-size:15px;
+}
+.footer-1 i{
+	color:#3fbbc0;
+}
+.btn {
+	background-color: #3fbbc0!important;
+}
+.btn-outline-secondary {
+	color:white;
+    border-color: #3fbbc0;
+}
+.form-control:focus {
+    border-color:nane!important;
+}
+.footer-2 {
+	margin-top:20px;
+}
+/*---------------
+.form-control:focus {
+    color:none!important; 
+    background-color: #fff;
+    border-color: none!important;
+   
+    box-shadow:none!important;
+}----------------*/
+.btn-outline-secondary:hover {
+	border-color:none!important;
+}
+
+
+.input-group  {
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.department-section {
+	margin-top: 15px;
+	
+}
+.department-course {
+	border-left: 6px solid transparent;
+	height:100px;
+	padding-top:10px;
+	padding-left:50px;
+}
+.department-course:hover{
+	border-left: 6px solid #0ec4cd;
+	height:80px;
+	background-color:#f3ffff;	
+}
+.department-course:hover h4{
+	color:#0ec4cd;
+}
 
 
 
