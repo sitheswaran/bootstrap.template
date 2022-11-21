@@ -87,9 +87,19 @@
 	background-color:none;
 	color:white;
 }
-
 .dropdown-menu {
-	z-index:2spx;
+	z-index:2px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(63 187 192)!important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(63 187 192)!important ;
+}
+
+.btn-check:focus+.btn-info, .btn-info:focus {
+     color:none!important;
 }
 /*--------------------- HEADER SECTION END -----------------------------------*/
 
@@ -227,9 +237,11 @@
 	border-radius:50px;
     font-size:16px;	
 	font-weight:200px;
-    border: 2px solid white;				
+    border: 2px solid white;
+    margin-bottom: 25px;	
 }
 .nav-but:hover{
+	
 	background-color:white;
 	color:#3fbbc0;
 }
@@ -321,8 +333,8 @@
 	background-color:#3fbbc0;
 }
 .service-con {
-	margin-top:148px;
-	height:220px;
+	margin-top: 85px;
+	
 }
 
 .service-con  i{
@@ -397,8 +409,9 @@
 	border-radius: 50px;
     margin-left:41%;
     text-align: center;
-    width: 200px;
+    width:180px;
     margin-top:35px;
+	margin:0 auto;
 }
 .form-control:focus {
      border-color:#0ec4cd;
@@ -745,7 +758,6 @@ element.style {
 	box-shadow: 0 0 20px rgb(214 215 216 / 50%);
 	margin-top: 30px;
 	padding-top: 30px;
-	height:370px;
     box-shadow: 0 0 20px rgb(214 215 216 / 50%);
 }
 
