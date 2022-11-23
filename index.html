@@ -48,14 +48,13 @@
 	    <div class="col-lg-12">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="image/pi1.png"> </a>
-	
-	
-	
-	
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand " href="#"><img src="image/pi1.png"> </a>
+	        <div class="img-btn">
+	             <button type="button" class="btn btn-info3 d-lg-none">appoiment</button>  
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item ">
@@ -103,7 +102,7 @@
           <a class="nav-link2" href="#">CONTACT</a>
         </li>
       </ul>
-           <button type="button" class="btn btn-info3">Make on appoiment</button>
+           <button type="button" class="btn btn-info3 d-none d-lg-block">Make on appoiment</button>
     </div>
   </div>
 </nav>
@@ -645,7 +644,7 @@
 				 </div>
 			</div>
 			
-			    <div class="owl-carousel owl-theme  ">
+			    <div class="owl-carousel owl-theme" id="test">
 				    <div class="test-top ">
 						<div class="item"> 
 						    <p> <i class="icofont-quote-left"></i> <cite>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</cite><i class="icofont-quote-right"></i> </p> 
@@ -801,39 +800,26 @@
 <section class="gallery-section">
     <div class="container">
 	    <div class="row">
-		    <div class="col-lg-12">
+		    <div class="col-lg-12 col-12">
 			    <div class="gallery-header pt-4 text-center position-relative">
 				    <h2>GALLERY</h2>
 				    <div class="service-color  position-absolute translate-middle"></div>
 					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 			</div> 
-           
-		    <div class="col">
-			    <div class="gallery-img pt-4">
-				     <img src="image/pi12.jpg" width="100%" height="200px">
+             
+			   <div class="owl-carousel  owl-theme"id="slider">
+					<div class="item">  <img src="image/pi12.jpg"></div>
+					<div class="item">  <img src="image/pi13.jpg"></div>
+					<div class="item">  <img src="image/pi14.jpg"></div>
+					<div class="item">  <img src="image/pi15.jpg"></div>
+					<div class="item">  <img src="image/pi28.jpg"></div>
+					<div class="item">  <img src="image/pi25.jpg"></div>
+					<div class="item">  <img src="image/pi26.jpg"></div>
+					<div class="item">  <img src="image/pi27.jpg"></div>
+					
 				</div>
-			</div>
-			<div class="col">
-			    <div class="gallery-img pt-4">
-				   <img src="image/pi13.jpg" width="100%" height="200px">
-				</div>
-			</div>
-			<div class="col ">
-			    <div class="gallery-img  pt-4">
-				    <img src="image/pi14.jpg" width="100%" height="200px">
-				</div>
-			</div>
-			<div class="col">
-			    <div class="gallery-img d-block d-none pt-4">
-				    <img src="image/pi15.jpg" width="100%" height="200px">
-				</div>
-			</div>
-			<div class="col">
-			    <div class="gallery-img d-block d-none pt-4">
-				    <img src="image/pi16.jpg" width="100%" height="200px">
-				</div>
-			</div>
+		  
 			
 		</div>
 	</div>
@@ -1210,23 +1196,7 @@
 
 
 
-<section class="slide-header">
-    <div class="container">
-	    <div class="row">
-		       <div class="owl-carousel owl-theme"id="slider">
-					<div class="item">  <img src="image/pi12.jpg"></div>
-					<div class="item">  <img src="image/pi13.jpg"></div>
-					<div class="item">  <img src="image/pi14.jpg"></div>
-					<div class="item">  <img src="image/pi15.jpg"></div>
-					<div class="item">  <img src="image/pi16.jpg"></div>
-					<div class="item">  <img src="image/pi17.jpg"></div>
-					<div class="item">  <img src="image/pi18.jpg"></div>
-					<div class="item">  <img src="image/pi19.jpg"></div>
-					
-				</div>
-		</div>
-	</div>
-</section>
+
 
 
 
@@ -1261,42 +1231,49 @@
 
 <script>
 
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:3,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:3
-        }
-    }
-})
+	
+		$('#test').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			autoplay:true,
+            autoplayTimeout:2000,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:3
+				}
+			}
+		})
 
+        $('#slider').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			autoplay:true,
+            autoplayTimeout:2000,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:5
+				}
+			}
+		})
 
-
-
-$('#slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+   
+	
+	
+	
 </script>
 
 
