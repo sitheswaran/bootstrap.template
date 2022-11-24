@@ -117,7 +117,10 @@ display:none!important;
     margin-top: -44px!important;
 }
 
-
+.owl-carousel .owl-stage-outer {
+    
+    margin-top:40px!important;
+ }
 
 }
 
@@ -149,7 +152,10 @@ display:none!important;
     margin-top: -44px!important;
 }
 
-	
+.owl-carousel .owl-stage-outer {
+   
+    margin-top:40px!important;
+ }	
 }
 
 

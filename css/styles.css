@@ -71,7 +71,7 @@
 .nav-item {
 	font-weight:500;
 	font-size:13px;
-    padding-left:23px!important;
+    padding-left:22px!important;
 }
 .navbar-light .navbar-nav .nav-link2 :hover {
 	color:#3fbbc0;
@@ -595,8 +595,9 @@
 .item i{
 	color:#78e3d9;
 }
-
-
+.testmonials-section .owl-dots .owl-dot.active{
+	background-color:#78e3d9;
+}	
 
 
 
@@ -701,7 +702,7 @@ color:blue;
     
     border-radius:100%!important;
     padding:5px!important;
-    background-color:white!important;
+    background-color:white;
 	border:1px solid #78e3d9!important;
 	margin-left:5px;
 	text-align:center;
@@ -714,7 +715,9 @@ color:blue;
 .owl-dots {
 	text-align:center;
 }
-
+ .gallery-section .owl-dots .owl-dot.active{
+	background-color:#78e3d9;
+}	
 
 
 /*-------------------- GALLERY - SECTION END  ---------------------------------*/
@@ -964,7 +967,7 @@ element.style {
 
 /*-------------------- FOOTER - SECTION START ---------------------------------*/
 .footer-section {
-	background: #eeeeee;
+	background:#f6f6f6;
 }
 .footer-header {
 	margin-top:50px;
@@ -1037,13 +1040,34 @@ element.style {
 }
 
 
+/*-------------------------------------------------------------------*/
+.made-in-section {
+	  background-color:#eeeeee;
+	  text-align:center;
+}
+
+
+
+.made {	 
+    margin-top:20px;
+	width:500px;
+		   }
+.made-in {
+	color:gray;
+	text-align:center;
+	font-size:13px;
+ 
+}	 
+.made-in  a{
+    text-decoration:none;
+	color:#3fbbc0;
+}
 
 
 
 
 
-
-
+/*-----------------------------------------------------------*/
 
 
 
