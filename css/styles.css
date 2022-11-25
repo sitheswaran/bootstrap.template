@@ -198,6 +198,7 @@
 }
 
 .medicion-sheet {
+	position:relative;
 	box-shadow:0 0 29px 0 rgb(68 88 144 / 12%);
 	padding-top:25px;
 	padding-left:20px;
@@ -206,12 +207,28 @@
 	background-color:white;
     height:250px;
 	border-radius:8px; 
+	z-index:1;
+}
+.medicion-sheet:after{
+	content:"";
+	position:absolute;
+	top:250px;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:auto;
+	border-radius:8px; 
+	background-color:#3fbbc0;
+	z-index:-1;
+    transition:all ease 0.5s;
+}
+.medicion-sheet:hover:after{
+ 
+    top:0;
 }
 .medicion-sheet i{
 	color:#3fbbc0;
 	font-size:64px;
-
-
 }
 
 .medicion-sheet h3{
@@ -220,14 +237,18 @@
 .medicion-sheet p{
 	padding-top:8px;
 }
-.medicion-sheet:hover{
-	background-color:#3fbbc0;
-	color:white;      
-}
+
 
 .medicion-sheet:hover i{
 	color:white;
 }
+.medicion-sheet:hover h3{
+	color:white;
+}
+.medicion-sheet:hover p{
+	color:white;
+}
+
 /*--------------------- medicion SECTION END   -----------------------------------*/
 /*--------------------- EMERGINCY SECTION START -----------------------------------*/
 
@@ -600,6 +621,18 @@
 }	
 
 
+.item i:first-child{
+	display:inline-block;
+	transform:translateY(-5px);
+	
+}
+.item  i:last-child{
+	display:inline-block;
+	transform:translateY(5px);
+	padding-left:5px;
+	
+}
+	
 
 
 
@@ -607,6 +640,7 @@
 /*-------------------- TESTMONISLS - SECTION END   ---------------------------------*/
 /*-------------------- DOCTER - SECTION START ---------------------------------*/
 .docter-section {
+	margin-top:35px;
     background-color:#f7fcfc;
     
 }
@@ -637,8 +671,7 @@
 .team-link a i{
     line-height:35px;
     display:inline-block;
-    background-color:#e03a3c;
-    width:49px;
+    width:60px;
     height:35px;
     margin:0 3px;
 	text-align:center;
@@ -713,6 +746,7 @@ color:blue;
 }
 
 .owl-dots {
+	margin-top:35px;
 	text-align:center;
 }
  .gallery-section .owl-dots .owl-dot.active{
@@ -724,10 +758,11 @@ color:blue;
 
 /*-------------------- PRICING - SECTION START ---------------------------------*/
 .pricing-team  {
-	    box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
-   position:relative;
-   overflow:hidden;
-   border-radius: 5px;	
+	
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
+    position:relative;
+    overflow:hidden;
+    border-radius: 5px;	
 }
 .pricing {
 	height:50px;
