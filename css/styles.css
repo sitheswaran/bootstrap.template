@@ -679,7 +679,7 @@
 .team-link a i{
     line-height:35px;
     display:inline-block;
-    width:60px!important;
+    width:49px!important;
     height:35px;
     margin:0 3px;
 	text-align:center;
@@ -1006,6 +1006,9 @@ element.style {
 	width:50%;
 	border-radius:5px;
 }
+.btn-info2:hover {
+    background-color:#8fe1dd;
+}
 /*-------------------- CONTACT - SECTION END  ---------------------------------*/
 
 /*-------------------- FOOTER - SECTION START ---------------------------------*/
@@ -1041,6 +1044,9 @@ element.style {
     transition: 0.3s;
 	text-decoration:none;
 }
+.footer-link a:hover{
+	background-color:#8fe1dd;
+}
 .footer-1 a{
 	color:gray;
 	text-decoration:none;
@@ -1058,6 +1064,7 @@ element.style {
 .btn-outline-secondary {
 	color:white;
     border-color: #3fbbc0;
+	
 }
 .form-control:focus {
     border-color:nane!important;
@@ -1074,7 +1081,9 @@ element.style {
     box-shadow:none!important;
 }----------------*/
 .btn-outline-secondary:hover {
-	border-color:none!important;
+	border-color:#3fbbc0;
+	background-color:#8fe1dd;
+	
 }
 
 
