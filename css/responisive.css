@@ -15,7 +15,7 @@ display:none!important;
     padding-top:1px;
 }
 .service-con {
-    margin-top:157px!important;
+    margin-top:185px!important;
    
 }	
 .col {
@@ -113,6 +113,14 @@ display:none!important;
 	flex-direction:unset!important;
 }	
 
+.btn-info3 {
+        font-size: 11px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: -142px;
+}
+
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
      margin-left:none!important;
 }	
@@ -134,6 +142,11 @@ display:none!important;
     
     margin-top:40px!important;
  }
+
+
+
+
+
 
 }
 
